@@ -7,7 +7,7 @@ A small collection of Sounds that are used for different spells of different cla
 local appName = "|cFF0000FFDwSounds:|r ";
 local DwSoundsFrame = CreateFrame("FRAME") DwSoundsFrame:Hide()
 
-local _debug = true
+local _debug = false
 function errTxt(msg)
 	if ( _debug == true ) then
 		print(appName.. " _DEBUG : "..msg);
