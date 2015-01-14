@@ -1,0 +1,7 @@
+DwSounds Change Log
+
+v1.0
+	Initial Release.
+	Added Get over here sound for:
+		Priest: Leap of Faith
+		Death Knight: Death Grip

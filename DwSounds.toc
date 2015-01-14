@@ -1,0 +1,8 @@
+## Interface: 60000
+## Title: DwSounds
+## Author: Downwind
+## Version: 1.0
+## Notes: A small collection of Sounds that are used for different spells of different classes. Made by Downwind, GM of Strength in All on US-Stormrage.
+## SavedVariables: DwSoundsConfigValues
+
+DwSoundsCode.lua
