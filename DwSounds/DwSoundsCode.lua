@@ -32,11 +32,11 @@ function DwSoundsFrame:UNIT_SPELLCAST_SUCCEEDED(unitID, spell, rank, lineID, spe
 					errTxt("Leap Detected");
 					PlaySoundFile("Interface\\AddOns\\DwSounds\\Sounds\\GetOverHere.ogg", "Master")
 					errTxt("Sound Played");
-				
+				end
 	-- End Priest Sounds
 	
 	-- Begin Death Knight Sounds
-				elseif spellID == 49576 then -- Death Grip
+				if spellID == 49576 then -- Death Grip
 					errTxt("Death Grip Detected");
 					PlaySoundFile("Interface\\AddOns\\DwSounds\\Sounds\\GetOverHere.ogg", "Master")
 					errTxt("Sound Played");
@@ -44,7 +44,7 @@ function DwSoundsFrame:UNIT_SPELLCAST_SUCCEEDED(unitID, spell, rank, lineID, spe
 	-- End Death Knight Sounds
 	
 	-- Begin Warrior Sounds
-				elseif spellID == 46924 then -- Blade Storm
+				if spellID == 46924 then -- Blade Storm
 					errTxt("Blade Storm Detected");
 					PlaySoundFile("Interface\\AddOns\\DwSounds\\Sounds\\BoneStorm.ogg", "Master")
 					errTxt("Sound Played");
