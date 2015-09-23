@@ -43,6 +43,14 @@ function DwSoundsFrame:UNIT_SPELLCAST_SUCCEEDED(unitID, spell, rank, lineID, spe
 				end
 	-- End Death Knight Sounds
 	
+	-- Begin Warrior Sounds
+				elseif spellID == 46924 then -- Blade Storm
+					errTxt("Blade Storm Detected");
+					PlaySoundFile("Interface\\AddOns\\DwSounds\\Sounds\\BoneStorm.ogg", "Master")
+					errTxt("Sound Played");
+				end
+	-- End Warrior Sounds
+	
 	
 	end
 end		
