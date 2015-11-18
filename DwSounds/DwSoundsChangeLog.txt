@@ -1,8 +1,16 @@
 DwSounds Change Log
 
+== v1.3 ==
+* Added Kologarn "You Fail" sound when Player dies.
+
+* Added Headless Horseman "Soldiers arise stand and fight bring victory at last to this fallen knight" sound for Death Knight: Army of the dead.
+ - Thanks Fenrisvargen666 for recommending this sound.
+ 
+* Changed "Bonestorm" sound to use proper in game file.
+
 == v1.2 == 
 * Updated to patch 6.2
-* Added Lord Marrowgar Bonestorm sound for Warrior: Bladestorm
+* Added Lord Marrowgar "Bonestorm" sound for Warrior: Bladestorm
 
 
 == v1.1 ==
@@ -10,6 +18,6 @@ DwSounds Change Log
 
 == v1.0 ==
 Initial Release.
-Added Get over here sound for:
+Added "Get over here" sound for:
 * Priest: Leap of Faith
 * Death Knight: Death Grip
